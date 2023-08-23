@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hd_learning_app/UI/MainMenu/Screen/main_menu.dart';
+import 'package:get/get.dart';
+import 'package:hd_learning_app/ui/MainMenu/Screen/main_menu.dart';
 
 void main(List<String> args) {
   runApp(HDLearningApp());
@@ -10,7 +11,7 @@ class HDLearningApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'HD Learning App',
       home: MainMenu(),
     );
