@@ -109,7 +109,6 @@ class LoginPage extends StatelessWidget {
                                       color: AppTheme.netralColor_900,
                                     ),
                                   ),
-                                  // tambah test 4
                                   filled: true,
                                   fillColor: AppTheme.whiteColor,
                                   border: OutlineInputBorder(
