@@ -11,26 +11,28 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-      child: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.only(top: 268),
-            child: Image.asset(
-              "assets/images/Logo HomeDev(NoBackground).png",
-              width: 136,
-              height: 132,
+      child: Center(
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.only(top: 268),
+              child: Image.asset(
+                "assets/images/Logo HomeDev(NoBackground).png",
+                width: 136,
+                height: 132,
+              ),
             ),
-          ),
-          const SizedBox(
-            height: 330,
-          ),
-          Text(
-            "V.0.0.1",
-            style: GoogleFonts.nunito(
-              fontSize: 16,
+            const SizedBox(
+              height: 330,
             ),
-          ),
-        ],
+            Text(
+              "V.0.0.1",
+              style: GoogleFonts.nunito(
+                fontSize: 16,
+              ),
+            ),
+          ],
+        ),
       ),
     ));
   }
